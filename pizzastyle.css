@@ -1,0 +1,12 @@
+#form-container {
+    width: 80%;
+    margin: auto;
+}
+
+.pizza-node {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}

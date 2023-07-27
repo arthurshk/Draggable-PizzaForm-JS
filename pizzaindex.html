@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="pizzastyle.css">
+</head>
+<body>
+<div id="form-container">
+    <form>
+        <div class="pizza-node">
+            <h3>Pizza #1</h3>
+            <label for="pizza-type">Pizza Type:</label>
+            <input type="text" name="pizza-type" required>
+            <br>
+            <label for="applications">Applications:</label>
+            <input type="text" name="applications" required>
+            <br>
+            <label for="size">Size:</label>
+            <select name="size" required>
+                <option value="">--Select Size--</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+        </div>
+        <button id="add-pizza-btn" type="button">Add Another Pizza</button>
+        <br><br>
+        <input type="submit" value="Place Order">
+    </form>
+</div>
+
+
+
+
+
+
+<script src="pizzascript.js"></script>
+</body>
+</html>
